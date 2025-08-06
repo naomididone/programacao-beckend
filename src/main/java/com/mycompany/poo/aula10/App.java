@@ -22,8 +22,8 @@ public class App {
         pessoa1.exibirDados();
         pessoa2.exibirDados();
 
-        pessoal1.atribuirSalario(valor2000.0);
-        pessoal2.atribuirSalario(valor3500);
+        pessoa1.atribuirSalario(2000.0, 500);
+        pessoa2.atribuirSalario(3500);
 
      /*System.out.println("--- Dados da pessoa ---");
      System.out.println("Nome: " + pessoa1.nome);
