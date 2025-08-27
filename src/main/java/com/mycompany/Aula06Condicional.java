@@ -1,10 +1,6 @@
 package com.mycompany;
 
 public class Aula06Condicional {
-    public static void main(String[] args) {
-        package com.mycompany;
-
-public class Aula06Condicional {
 
     public static void main(String[] args) {
         /*
@@ -23,24 +19,22 @@ public class Aula06Condicional {
         } else {
             System.out.println(num + " é ímpar !!");
             /*
- * Estrutura condicional composta (if, else if, else)
- *
- * nesse tipo de estrutura podemos ter mais de uma
- * verificação caso o primeiro if não seja satisfeito
- *
- * um exemplo prático pode ser a verificação do IMC
- */
-double imc = 24.0;
+             * Estrutura condicional composta (if, else if, else)
+             *
+             * nesse tipo de estrutura podemos ter mais de uma
+             * verificação caso o primeiro if não seja satisfeito
+             *
+             * um exemplo prático pode ser a verificação do IMC
+             */
+            double imc = 24.0;
 
-if (imc < 18.5) {
-    System.out.println("Está abaixo do peso");
-} else if (imc >= 18.5 && imc < 24.5) {
-    System.out.println("Está com peso ideal");
-} else {
-    System.out.println("Está com obesidade");
-}
+            if (imc < 18.5) {
+                System.out.println("Está abaixo do peso");
+            } else if (imc >= 18.5 && imc < 24.5) {
+                System.out.println("Está com peso ideal");
+            } else {
+                System.out.println("Está com obesidade");
+            }
         }
-    }
-}
     }
 }
